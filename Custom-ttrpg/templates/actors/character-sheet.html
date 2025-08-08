@@ -1,0 +1,9 @@
+<article class="custom-sheet">
+  <h1>{{actor.name}}</h1>
+  <div>Class: {{class}}</div>
+  {{> attribute-row stat="HP" value=attributes.hp.value max=attributes.hp.max}}
+  {{> attribute-row stat="STR" value=attributes.str.value max=attributes.str.max}}
+  {{> attribute-row stat="DEX" value=attributes.dex.value max=attributes.dex.max}}
+  {{> attribute-row stat="END" value=attributes.end.value max=attributes.end.max}}
+  <button id="ctt-btn-info">Class Info</button>
+</article>

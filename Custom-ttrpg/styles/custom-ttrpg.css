@@ -1,0 +1,41 @@
+:root {
+  --ctt-primary: #3498db;
+  --ctt-accent: #2ecc71;
+  --ctt-background: #1e1e2f;
+  --ctt-foreground: #ffffff;
+  --ctt-border: #666;
+  --ctt-padding: 0.5em;
+}
+
+.custom-sheet {
+  background-color: var(--ctt-background);
+  color: var(--ctt-foreground);
+  padding: var(--ctt-padding);
+  border: 1px solid var(--ctt-border);
+  border-radius: 4px;
+}
+.attribute-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.3em 0;
+}
+.ctt-btn {
+  background-color: var(--ctt-primary);
+  color: var(--ctt-foreground);
+  border: none;
+  padding: 0.3em 0.6em;
+  margin: 0 0.2em;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.ctt-btn:hover, .ctt-btn:focus {
+  background-color: var(--ctt-accent);
+  outline: none;
+}
+.class-info, .welcome, .reset-settings {
+  background-color: var(--ctt-background);
+  color: var(--ctt-foreground);
+  padding: var(--ctt-padding);
+  border: 1px solid var(--ctt-border);
+  border-radius: 4px;
+}
